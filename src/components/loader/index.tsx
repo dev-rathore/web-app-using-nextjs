@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { SpinnerVariant } from '../../ts-types/spinner';
+import { SpinnerVariant } from '@/ts-types/spinner';
 import Spinner from '../spinner';
 
 interface LoaderProps {

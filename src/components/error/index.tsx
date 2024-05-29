@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-import { CTA } from '@ts-types/error';
+import { CTA } from '@/ts-types/error';
 
 interface ErrorProps {
   cta?: CTA;
