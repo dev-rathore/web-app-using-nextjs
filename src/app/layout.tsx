@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+
+// Next.js automatically optimizes fonts in the application when we use the next/font module.
 import { Inter } from "next/font/google";
 import "./globals.css";
 
