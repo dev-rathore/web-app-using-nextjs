@@ -1,7 +1,7 @@
 'use client'
 import React from "react";
 
-import { Button } from "@components/index";
+import { Button } from "@/components/ui/button";
 
 const Home: React.FC = () => {
   return (

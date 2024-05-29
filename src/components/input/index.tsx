@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import * as React from 'react';
 
 import styles from './input.styles';
-import { InputVariant } from '@ts-types/input';
+import { InputVariant } from '@/ts-types/input';
 
 export interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {
   endEnhancer?: React.ReactElement | string;

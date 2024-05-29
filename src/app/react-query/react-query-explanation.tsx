@@ -7,10 +7,10 @@ import {
   useQuery,
 } from "@tanstack/react-query";
 import PokemonContainer from "./pokemon-container";
-import Loader from "@components/loader";
+import Loader from "@/components/loader";
 import { toast } from "react-toastify";
-import Input from "@components/input";
-import Button from "@components/button";
+import Input from "@/components/input";
+import { Button } from "@/components/ui/button";
 
 // Mutation - Data Creation, Data Updation, Data Deletion
 
