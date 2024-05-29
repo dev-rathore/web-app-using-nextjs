@@ -23,7 +23,7 @@ const Error: React.FC<ErrorProps> = ({
         <p key={index} className='text-base text-slate-600 md:text-lg'>{message}</p>
       ))}
       {cta && <p className='text-base text-slate-600 md:text-lg'>
-        Let's get you back {cta.text === 'home' ? '' : 'to the'} <Link
+        Let&apos;s get you back {cta.text === 'home' ? '' : 'to the'} <Link
           className='text-primary'
           href={cta.href}
         >
